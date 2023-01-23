@@ -10,9 +10,7 @@ jobs:
       - run:
           name: Create Cloudformation Stack
           command: |
-            aws cloudformation deploy \
-              --template-file template.yml \
-              --stack-name myStack
+            aws cloudformation deploy --template-file template.yml --stack-name myStack
 workflows:
   # Name the workflow
   myWorkflow:
