@@ -6,7 +6,7 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: udacity
+      KeyName: uda_pmf
       ImageId: 'ami-00874d747dde814fa' 
       InstanceType: t2.micro
   InstanceSecurityGroup:
